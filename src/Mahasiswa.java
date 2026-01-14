@@ -21,7 +21,7 @@ public class Mahasiswa {
 
     //4. Setter (ada aturan)
     public void setUmur(int umur) {
-        if (umur > 0){
+        if (umur > 0) {
             this.umur = umur;
         } else {
             System.out.println("Umur tidak valid");
